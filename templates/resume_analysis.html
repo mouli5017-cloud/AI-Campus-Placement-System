@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #43A047, #1E88E5); color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .content { padding: 30px; color: #333; line-height: 1.6; }
+        .score-ring { text-align: center; padding: 20px; }
+        .score-value { font-size: 48px; font-weight: bold; color: #1E88E5; }
+        .grade { font-size: 20px; padding: 5px 15px; border-radius: 20px; display: inline-block; margin-top: 10px; }
+        .grade-a { background: #c8e6c9; color: #2e7d32; }
+        .grade-b { background: #dcedc8; color: #558b2f; }
+        .grade-c { background: #fff9c4; color: #f57f17; }
+        .grade-d { background: #ffe0b2; color: #e65100; }
+        .grade-f { background: #ffcdd2; color: #c62828; }
+        .section-bar { margin: 8px 0; }
+        .bar-bg { background: #e0e0e0; border-radius: 10px; height: 20px; }
+        .bar-fill { height: 20px; border-radius: 10px; background: linear-gradient(90deg, #1E88E5, #764ba2); }
+        .bar-label { display: flex; justify-content: space-between; font-size: 13px; padding: 2px 0; }
+        .footer { background: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📋 Resume Analysis Complete</h1>
+        </div>
+        <div class="content">
+            <p>Dear <strong>{{ name }}</strong>,</p>
+            <p>Your resume has been analyzed by our AI-powered ATS scanner.</p>
+
+            <div class="score-ring">
+                <div class="score-value">{{ ats_score }}/100</div>
+                <div class="grade grade-{{ grade_lower }}">{{ grade }}</div>
+            </div>
+
+            <h3>Section Breakdown:</h3>
+            {{ sections_html }}
+
+            <h3>Improvements:</h3>
+            {{ improvements_html }}
+
+            <a href="#" class="btn">View Full Report</a>
+        </div>
+        <div class="footer">
+            <p>Campus Placement AI System | Final Year B.E. Project</p>
+        </div>
+    </div>
+</body>
+</html>
