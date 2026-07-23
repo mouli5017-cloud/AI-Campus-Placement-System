@@ -1,0 +1,15 @@
+company,title,skills,min_cgpa,min_salary,max_salary,location,type
+TCS,Software Engineer,"['Java', 'Python', 'SQL', 'Communication']",6.0,3.36,7.0,Bangalore,Full-Time
+Infosys,Systems Engineer,"['Java', 'Python', 'React', 'SQL']",6.0,3.6,6.5,Mysore,Full-Time
+Wipro,Project Engineer,"['Java', 'Python', 'Angular', 'SQL']",6.0,3.5,6.0,Pune,Full-Time
+Amazon,SDE-1,"['Python', 'Java', 'AWS', 'System Design', 'DSA']",7.0,12.0,30.0,Hyderabad,Full-Time
+Google,Software Engineer L3,"['Python', 'Java', 'C++', 'DSA', 'System Design']",7.5,18.0,45.0,Bangalore,Full-Time
+Microsoft,Software Engineer,"['C++', 'Java', 'Python', 'DSA', 'System Design']",7.0,15.0,40.0,Hyderabad,Full-Time
+Accenture,Software Engineer,"['Python', 'AWS', 'Java', 'Communication']",6.5,4.5,8.0,Pune,Full-Time
+IBM,Associate Developer,"['Python', 'Java', 'Cloud Computing', 'AI']",6.5,4.0,12.0,Bangalore,Full-Time
+Capgemini,Software Engineer,"['Java', 'Python', 'React', 'Docker']",6.0,3.8,7.0,Mumbai,Full-Time
+Cognizant,Programmer Analyst,"['Java', 'Python', 'SQL', 'Spring Boot']",6.0,4.0,7.5,Chennai,Full-Time
+HCL Technologies,Software Engineer,"['Java', 'Python', 'Networking', 'SQL']",6.0,3.5,7.0,Noida,Full-Time
+Freshworks,Software Developer,"['Ruby', 'Python', 'React', 'SQL']",6.5,5.0,10.0,Chennai,Full-Time
+Zoho,Software Developer,"['Java', 'Python', 'JavaScript', 'SQL']",6.0,4.5,9.0,Chennai,Full-Time
+SAP Labs,Software Developer,"['Java', 'Python', 'ABAP', 'Cloud Computing']",7.0,8.0,18.0,Bangalore,Full-Time
