@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Campus Placement Prediction & Resume Screening System
 
 A comprehensive machine learning-based system for campus placement prediction, resume screening, ATS scoring, skill gap analysis, job matching, and interview preparation. Built as a final-year B.E. Computer Science project.
@@ -210,3 +211,7 @@ uvicorn src.api.placement_api:app --reload
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
+=======
+# AI-Campus-Placement-System
+AI-powered platform for placement prediction, resume screening, and career guidance, using Python and Streamlit.
+>>>>>>> 48a70f9e928c81dd1ce6ed612581a4b1a017e72e
